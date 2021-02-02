@@ -1,0 +1,44 @@
+<Addresses>
+	<Address1 sr='1' no='a'>
+		<SL_NO>11</SL_NO>
+		<NAME>John Carter </NAME>
+		<Address>
+			<House_No>H#38</House_No>
+			<Block>R#3</Block>
+			<P_S> Banani</P_S>
+			<Dist>Dhaka</Dist>
+		</Address>
+		<Department>Sales</Department>
+		<Salary>$20000</Salary>
+	</Address1>
+
+
+	<Address1 sr='2' no='b'>
+		<SL_NO>11</SL_NO>
+		<NAME>John Carter </NAME>
+		<Address>
+			<Flat> A/1</Flat>
+			<House_No>H#38</House_No>
+			<Block>R#3</Block>
+			<P_S> Banani</P_S>
+			<Dist>Dhaka</Dist>
+		</Address>
+		<Department>Accounts</Department>
+		<Salary>$12000</Salary>
+	</Address1>
+
+	<Address1 sr='3' no='c'>
+		<SL_NO>11</SL_NO>
+		<NAME>John Carter </NAME>
+		<Address>
+			<House_No>H#38</House_No>
+			<Block>R#3</Block>
+			<P_S> Mirpur</P_S>
+			<Dist>Dhaka</Dist>
+		</Address>
+		<Department>Human Resource</Department>
+		<Salary>$35000</Salary>
+	</Address1>
+</Addresses>
+
+https://github.com/AhmedSajjad/learning-web-technologies-fall-2020-2021-sec-g.git

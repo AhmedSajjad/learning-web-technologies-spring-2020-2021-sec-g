@@ -1,0 +1,30 @@
+<Admissions>
+
+	<Admission sr='1' no='a'>
+		<SL_NO>11</SL_NO>
+		<NAME>John Carter </NAME>
+		<Admission_Date>
+			<Day>25</Day>
+			<Month>12</Month>
+			<Year>2015</Year>
+		</Admission_Date>
+	</Admission>
+
+	<Admission sr='2' no='b'>
+		<SL_NO>23</SL_NO>
+		<NAME>John Carter </NAME>
+		<Admission_Date>
+			<Day>25</Day>
+			<Month>12</Month>
+			<Year>2015</Year>
+		</Admission_Date>
+		
+	<Admission sr='3' no='c'>
+		<SL_NO>35</SL_NO>
+		<NAME>Clark Kent</NAME>
+		<Admission_Date>
+			<Day>25</Day>
+			<Month>12</Month>
+			<Year>2015</Year>
+	</Admission>
+</Admissions>
