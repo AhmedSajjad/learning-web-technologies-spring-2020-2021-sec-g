@@ -1,35 +1,33 @@
-  
 <?php
     $title = "User List Page";
+    session_start();
+    if(isset($_SESSION['flag'])){
 
 ?>
 
  
 
-    <a href="AdminDashboard.php">Back</a> |
+    <a href="adminDashboard.php">Back</a> |
     <a href="../controller/logout.php">logout</a>    
     <br><br>
 
-
- 
     
     <h1>User list</h1>
 
  
 
-    <table border="1" width="100%">
+    <table border="1" width="800">
         <tr>
             <th>ID</th>
             <th>NAME</th>
             <th>EMAIL</th>
             <th>ROLE</th>
-            <th>ACTION</th>
         </tr>
         <?php
 
  
 
-        $userArr = file_get_contents('../model/users.json');
+        $userArr = file_get_contents('../model/user.json');
         $userArr = json_decode($userArr);
         foreach($userArr as $user)
         {
@@ -43,10 +41,7 @@
                  echo "<td>"; echo $user->role; echo "</td>";
             echo '
             
-                <td>
-                    <a href="edit.php?id=1"> EDIT</a> |
-                    <a href="delete.php?id=1"> DELETE</a>
-                </td>
+                
             </tr>
             
             
@@ -65,3 +60,13 @@
         
         
     </table>
+    
+
+<?php
+    }else{
+        header('location: login.php');
+    }
+
+
+
+?>
